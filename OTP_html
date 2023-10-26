@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Phone Number Verification</title>
+<link rel="stylesheet" type="text/css" href="otp.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+<h1>Phone Number Verification</h1>
+<form>
+<label for="phone">Phone Number:</label>
+<div class="input-container">
+<i class="fas fa-phone-alt icon"></i>
+<input type="text" id="phone" name="phone" placeholder="Enter
+
+your phone number">
+</div>
+<label for="otp">OTP:</label>
+<div class="input-container">
+<i class="fas fa-lock icon"></i>
+<input type="text" id="otp" name="otp" placeholder="Enter the OTP
+
+you received">
+</div>
+<button type="submit" class="button">Verify</button>
+</form>
+</div>
+<script src="https://kit.fontawesome.com/a076d05399.js"
+crossorigin="anonymous"></script>
+</body>
+</html>
